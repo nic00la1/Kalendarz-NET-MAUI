@@ -7,15 +7,100 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            <Label Text="Grudzień 2024" FontSize="Large"/>
-            <Grid ColumnDefinitions="*,*,*,*,*,*,*" RowDefinitions="*,*,*,*,*,*">
-                <Label Text="pon."/>
-                <Label Text="wt." Grid.Column="1"/>
-                <Label Text="śr." Grid.Column="2"/>
-                <Label Text="czw." Grid.Column="3"/>
-                <Label Text="pt." Grid.Column="4"/>
-                <Label Text="sob." Grid.Column="5"/>
-                <Label Text="niedz." Grid.Column="6"/>
+            <Label Text="Grudzień 2024" FontSize="60"/>
+            <Grid ColumnDefinitions="*,*,*,*,*,*,*" RowDefinitions="*,*,*,*,*,*,*">
+                <Label Text="pon." FontSize="Title"/>
+                <Border Grid.Row="2">
+                    <Label Text="2" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Row="3">
+                    <Label Text="9" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Row="4">
+                    <Label Text="16" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Row="5">
+                    <Label Text="23" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Row="6">
+                    <Label Text="30" HorizontalTextAlignment="End"/>
+                </Border>
+
+
+                <Label Text="wt." Grid.Column="1" FontSize="Title"/>
+                <Border Grid.Row="2" Grid.Column="1">
+                    <Label Text="3" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Row="3" Grid.Column="1">
+                    <Label Text="10" HorizontalTextAlignment="End" TextColor="Green"/>
+                </Border>
+                <Border Grid.Row="4" Grid.Column="1">
+                    <Label Text="17" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Row="5" Grid.Column="1">
+                    <Label Text="24" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Row="6" Grid.Column="1">
+                    <VerticalStackLayout>
+                        <Label Text="31" HorizontalTextAlignment="End" TextColor="#FA5B12"/>
+                        <Label Text="Sylwester" TextColor="#FA5B12"/>
+                    </VerticalStackLayout>
+                </Border>
+
+                <Label Text="śr." Grid.Column="2" FontSize="Title"/>
+                <Border Grid.Row="2" Grid.Column="2">
+                    <Label Text="4" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Row="3" Grid.Column="2">
+                    <Label Text="11" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Row="4" Grid.Column="2">
+                    <Label Text="18" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Row="5" Grid.Column="2">
+                    <VerticalStackLayout>
+                        <Label Text="25" HorizontalTextAlignment="End" TextColor="#FA5B12"/>
+                        <Label Text="Boże Narodzenie" TextColor="#FA5B12"/>
+                    </VerticalStackLayout>
+                </Border>
+                
+                
+                <Label Text="czw." Grid.Column="3" FontSize="Title"/>
+                <Border Grid.Row="2" Grid.Column="3">
+                    <Label Text="5" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Row="3" Grid.Column="3">
+                    <Label Text="12" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Row="4" Grid.Column="3">
+                    <Label Text="19" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Row="5" Grid.Column="3">
+                    <VerticalStackLayout>
+                        <Label Text="26" HorizontalTextAlignment="End" TextColor="#FA5B12"/>
+                        <Label Text="Drugi dzień Bożego Narodzenia" TextColor="#FA5B12"/>
+                    </VerticalStackLayout>
+                </Border>
+
+
+                <Label Text="pt." Grid.Column="4" FontSize="Title"/>
+                <Label Text="6" Grid.Column="4" Grid.Row="2"/>
+                <Label Text="13" Grid.Column="4" Grid.Row="3"/>
+                <Label Text="13" Grid.Column="4" Grid.Row="4"/>
+                <Label Text="26" Grid.Column="4" Grid.Row="5"/>
+
+                <Label Text="sob." Grid.Column="5" FontSize="Title"/>
+                <Label Text="7" Grid.Column="5" Grid.Row="2"/>
+                <Label Text="14" Grid.Column="5" Grid.Row="3"/>
+                <Label Text="21" Grid.Column="5" Grid.Row="4"/>
+                <Label Text="28" Grid.Column="5" Grid.Row="5"/>
+
+                <Label Text="niedz." Grid.Column="6" FontSize="Title"/>
+                <Label Text="1" Grid.Column="6" Grid.Row="1"/>
+                <Label Text="8" Grid.Column="6" Grid.Row="2"/>
+                <Label Text="15" Grid.Column="6" Grid.Row="3"/>
+                <Label Text="22" Grid.Column="6" Grid.Row="4"/>
+                <Label Text="29" Grid.Column="6" Grid.Row="5"/>
             </Grid>
         </VerticalStackLayout>
     </ScrollView>
