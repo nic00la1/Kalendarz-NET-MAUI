@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kalendarz_NET_MAUI.Views.BirthdayPage"
+             Title="BirthdayPage">
+    
+       <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label Text="Sierpień 2026" FontSize="60"/>
+            <Grid ColumnDefinitions="*,*,*,*,*,*,*" RowDefinitions="*,*,*,*,*,*,*">
+                <Label Text="pon." HorizontalTextAlignment="End"/>
+                <!-- Week 1 -->
+                <Border Grid.Row="1" Grid.Column="5">
+                    <Label Text="1" HorizontalTextAlignment="End" FontSize="Title"/>
+                </Border>
+                <Border Grid.Row="1" Grid.Column="6">
+                    <Label Text="2" TextColor="Red" Margin="0,0,0,80" HorizontalTextAlignment="End" FontSize="Title"/>
+                </Border>
+
+                <Label Text="wt." Grid.Column="1" HorizontalTextAlignment="End"/>
+                <!-- Week 2 -->
+                <Border Grid.Row="2" Grid.Column="0"><Label Text="3" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="2" Grid.Column="1"><Label Text="4" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="2" Grid.Column="2"><Label Text="5" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="2" Grid.Column="3"><Label Text="6" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="2" Grid.Column="4"><Label Text="7" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="2" Grid.Column="5"><Label Text="8" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="2" Grid.Column="6"><Label Text="9" TextColor="Red" Margin="0,0,0,80" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+
+                <Label Text="śr." Grid.Column="2" HorizontalTextAlignment="End"/>
+                <!-- Week 3 (15 holiday, 16 birthday) -->
+                <Border Grid.Row="3" Grid.Column="0"><Label Text="10" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="3" Grid.Column="1"><Label Text="11" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="3" Grid.Column="2"><Label Text="12" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="3" Grid.Column="3"><Label Text="13" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="3" Grid.Column="4"><Label Text="14" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+
+                <!-- Holiday on 15 Aug (Saturday) -->
+                <Border Grid.Row="3" Grid.Column="5">
+                    <VerticalStackLayout>
+                        <Label Text="15" TextColor="Red" HorizontalTextAlignment="End" FontSize="Title"/>
+                        <Border BackgroundColor="#D32F2F" StrokeThickness="0">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="20"/>
+                            </Border.StrokeShape>
+                            <Label Text="Wniebowzięcie NMP / Święto Wojska Polskiego"
+                                   HorizontalTextAlignment="End" TextColor="White" Padding="6"/>
+                        </Border>
+                    </VerticalStackLayout>
+                </Border>
+
+                <!-- Birthday on 16 Aug (Sunday) -->
+                <Border Grid.Row="3" Grid.Column="6">
+                    <VerticalStackLayout>
+                        <Label Text="16" TextColor="Red" Margin="0,0,0,80" HorizontalTextAlignment="End" FontSize="Title"/>
+                        <Border BackgroundColor="#4CAF50" StrokeThickness="0">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="20"/>
+                            </Border.StrokeShape>
+                            <Label Text="Moje urodziny" HorizontalTextAlignment="End" TextColor="White" Padding="6"/>
+                        </Border>
+                    </VerticalStackLayout>
+                </Border>
+
+                <Label Text="czw." Grid.Column="3" HorizontalTextAlignment="End"/>
+                <!-- Week 4 -->
+                <Border Grid.Row="4" Grid.Column="0"><Label Text="17" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="4" Grid.Column="1"><Label Text="18" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="4" Grid.Column="2"><Label Text="19" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="4" Grid.Column="3"><Label Text="20" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="4" Grid.Column="4"><Label Text="21" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="4" Grid.Column="5"><Label Text="22" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="4" Grid.Column="6"><Label Text="23" TextColor="Red" Margin="0,0,0,80" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+
+                <Label Text="pt." Grid.Column="4" HorizontalTextAlignment="End"/>
+                <!-- Week 5 -->
+                <Border Grid.Row="5" Grid.Column="0"><Label Text="24" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="5" Grid.Column="1"><Label Text="25" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="5" Grid.Column="2"><Label Text="26" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="5" Grid.Column="3"><Label Text="27" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="5" Grid.Column="4"><Label Text="28" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="5" Grid.Column="5"><Label Text="29" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+                <Border Grid.Row="5" Grid.Column="6"><Label Text="30" TextColor="Red" Margin="0,0,0,80" HorizontalTextAlignment="End" FontSize="Title"/></Border>
+
+                <Label Text="sob." Grid.Column="5" HorizontalTextAlignment="End"/>
+                <!-- Week 6 (31) -->
+                <Border Grid.Row="6" Grid.Column="0">
+                    <Label Text="31" HorizontalTextAlignment="End" FontSize="Title" Margin="0,0,0,80"/>
+                </Border>
+
+                <Label Text="niedz." Grid.Column="6" HorizontalTextAlignment="End"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
