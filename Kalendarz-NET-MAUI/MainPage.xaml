@@ -23,7 +23,8 @@
                     <Label Text="23" HorizontalTextAlignment="End" FontSize="Title"/>
                 </Border>
                 <Border Grid.Row="6">
-                    <Label Text="30" HorizontalTextAlignment="End" FontSize="Title"/>
+                    <Label Text="30" HorizontalTextAlignment="End" FontSize="Title"
+                           Margin="0,0,0,80"/>
                 </Border>
 
 
@@ -124,19 +125,19 @@
 
                 <Label Text="niedz." Grid.Column="6" HorizontalTextAlignment="End"/>
                 <Border Grid.Column="6" Grid.Row="1">
-                    <Label Text="1" TextColor="Red" HorizontalTextAlignment="End" FontSize="Title"/>
+                    <Label Text="1" TextColor="Red" HorizontalTextAlignment="End" FontSize="Title" Margin="0,0,0,80"/>
                 </Border>
                 <Border Grid.Column="6" Grid.Row="2">
-                    <Label Text="8" TextColor="Red" HorizontalTextAlignment="End" FontSize="Title"/>
+                    <Label Text="8" TextColor="Red" HorizontalTextAlignment="End" FontSize="Title" Margin="0,0,0,80"/>
                 </Border>
                 <Border Grid.Column="6" Grid.Row="3">
-                    <Label Text="15" TextColor="Red" HorizontalTextAlignment="End" FontSize="Title"/>
+                    <Label Text="15" TextColor="Red" HorizontalTextAlignment="End" FontSize="Title" Margin="0,0,0,80"/>
                 </Border>
                 <Border Grid.Column="6" Grid.Row="4">
-                    <Label Text="22" TextColor="Red" HorizontalTextAlignment="End" FontSize="Title"/>
+                    <Label Text="22" TextColor="Red" HorizontalTextAlignment="End" FontSize="Title" Margin="0,0,0,80"/>
                 </Border>
                 <Border Grid.Column="6" Grid.Row="5">
-                    <Label Text="29" TextColor="Red" HorizontalTextAlignment="End" FontSize="Title"/>
+                    <Label Text="29" TextColor="Red" HorizontalTextAlignment="End" FontSize="Title" Margin="0,0,0,80"/>
                 </Border>
             </Grid>
         </VerticalStackLayout>
