@@ -38,12 +38,15 @@
                     <Label Text="17" HorizontalTextAlignment="End"/>
                 </Border>
                 <Border Grid.Row="5" Grid.Column="1">
-                    <Label Text="24" HorizontalTextAlignment="End"/>
+                    <VerticalStackLayout>
+                        <Label Text="24" HorizontalTextAlignment="End" TextColor="#FA5B12"/> 
+                        <Label Text="Wigilia Bożego Narodzenia" HorizontalTextAlignment="End" TextColor="#FA5B12"/> 
+                    </VerticalStackLayout>
                 </Border>
                 <Border Grid.Row="6" Grid.Column="1">
                     <VerticalStackLayout>
                         <Label Text="31" HorizontalTextAlignment="End" TextColor="#FA5B12"/>
-                        <Label Text="Sylwester" TextColor="#FA5B12"/>
+                        <Label Text="Sylwester" TextColor="#FA5B12" HorizontalTextAlignment="End"/>
                     </VerticalStackLayout>
                 </Border>
 
@@ -60,7 +63,7 @@
                 <Border Grid.Row="5" Grid.Column="2">
                     <VerticalStackLayout>
                         <Label Text="25" HorizontalTextAlignment="End" TextColor="#FA5B12"/>
-                        <Label Text="Boże Narodzenie" TextColor="#FA5B12"/>
+                        <Label Text="Boże Narodzenie" TextColor="#FA5B12" HorizontalTextAlignment="End"/>
                     </VerticalStackLayout>
                 </Border>
                 
@@ -84,23 +87,56 @@
 
 
                 <Label Text="pt." Grid.Column="4" FontSize="Title"/>
-                <Label Text="6" Grid.Column="4" Grid.Row="2"/>
-                <Label Text="13" Grid.Column="4" Grid.Row="3"/>
-                <Label Text="13" Grid.Column="4" Grid.Row="4"/>
-                <Label Text="26" Grid.Column="4" Grid.Row="5"/>
+                <Border Grid.Column="4" Grid.Row="2">
+                    <VerticalStackLayout>
+                        <Label Text="6" HorizontalOptions="End" TextColor="#FA5B12"/>
+                        <Label Text="Mikołajki" HorizontalOptions="End" TextColor="#FA5B12"/>
+                    </VerticalStackLayout>
+                </Border>
+                <Border Grid.Column="4" Grid.Row="3">
+                    <Label Text="13" HorizontalOptions="End"/>
+                </Border>
+                <Border Grid.Column="4" Grid.Row="4">
+                    <VerticalStackLayout>
+                        <Label Text="20" HorizontalOptions="End"/>
+                        <Label Text="Termin wystawiania proponowanych ocen" HorizontalTextAlignment="End"/>
+                        <Label Text="Wigilia klasowa" HorizontalTextAlignment="End"/>
+                    </VerticalStackLayout>
+                </Border>
+                <Border Grid.Column="4" Grid.Row="5">
+                    <Label Text="27" HorizontalOptions="End"/>
+                </Border>
 
                 <Label Text="sob." Grid.Column="5" FontSize="Title"/>
-                <Label Text="7" Grid.Column="5" Grid.Row="2"/>
-                <Label Text="14" Grid.Column="5" Grid.Row="3"/>
-                <Label Text="21" Grid.Column="5" Grid.Row="4"/>
-                <Label Text="28" Grid.Column="5" Grid.Row="5"/>
+                <Border Grid.Column="5" Grid.Row="2">
+                    <Label Text="7" HorizontalTextAlignment="End"/>  
+                </Border>
+                <Border Grid.Column="5" Grid.Row="3">
+                    <Label Text="14"  HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Column="5" Grid.Row="4">
+                    <Label Text="21" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Column="5" Grid.Row="5">
+                    <Label Text="28" HorizontalTextAlignment="End"/>
+                </Border>
 
                 <Label Text="niedz." Grid.Column="6" FontSize="Title"/>
-                <Label Text="1" Grid.Column="6" Grid.Row="1"/>
-                <Label Text="8" Grid.Column="6" Grid.Row="2"/>
-                <Label Text="15" Grid.Column="6" Grid.Row="3"/>
-                <Label Text="22" Grid.Column="6" Grid.Row="4"/>
-                <Label Text="29" Grid.Column="6" Grid.Row="5"/>
+                <Border Grid.Column="6" Grid.Row="1">
+                    <Label Text="1" TextColor="Red" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Column="6" Grid.Row="2">
+                    <Label Text="8" TextColor="Red" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Column="6" Grid.Row="3">
+                    <Label Text="15" TextColor="Red" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Column="6" Grid.Row="4">
+                    <Label Text="22" TextColor="Red" HorizontalTextAlignment="End"/>
+                </Border>
+                <Border Grid.Column="6" Grid.Row="5">
+                    <Label Text="29" TextColor="Red" HorizontalTextAlignment="End"/>
+                </Border>
             </Grid>
         </VerticalStackLayout>
     </ScrollView>
