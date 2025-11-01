@@ -40,13 +40,13 @@
                 <Border Grid.Row="5" Grid.Column="1">
                     <VerticalStackLayout>
                         <Label Text="24" HorizontalTextAlignment="End" TextColor="#FA5B12"/> 
-                        <Label Text="Wigilia Bożego Narodzenia" HorizontalTextAlignment="End" TextColor="#FA5B12"/> 
+                        <Label Text="Wigilia Bożego Narodzenia" HorizontalTextAlignment="End" BackgroundColor="#FA5B12"/> 
                     </VerticalStackLayout>
                 </Border>
                 <Border Grid.Row="6" Grid.Column="1">
                     <VerticalStackLayout>
                         <Label Text="31" HorizontalTextAlignment="End" TextColor="#FA5B12"/>
-                        <Label Text="Sylwester" TextColor="#FA5B12" HorizontalTextAlignment="End"/>
+                        <Label Text="Sylwester" BackgroundColor="#FA5B12" HorizontalTextAlignment="End"/>
                     </VerticalStackLayout>
                 </Border>
 
@@ -63,7 +63,7 @@
                 <Border Grid.Row="5" Grid.Column="2">
                     <VerticalStackLayout>
                         <Label Text="25" HorizontalTextAlignment="End" TextColor="#FA5B12"/>
-                        <Label Text="Boże Narodzenie" TextColor="#FA5B12" HorizontalTextAlignment="End"/>
+                        <Label Text="Boże Narodzenie" BackgroundColor="#FA5B12" HorizontalTextAlignment="End"/>
                     </VerticalStackLayout>
                 </Border>
                 
@@ -81,7 +81,7 @@
                 <Border Grid.Row="5" Grid.Column="3">
                     <VerticalStackLayout>
                         <Label Text="26" HorizontalTextAlignment="End" TextColor="#FA5B12"/>
-                        <Label Text="Drugi dzień Bożego Narodzenia" TextColor="#FA5B12"/>
+                        <Label Text="Drugi dzień Bożego Narodzenia" BackgroundColor="#FA5B12"/>
                     </VerticalStackLayout>
                 </Border>
 
@@ -90,7 +90,7 @@
                 <Border Grid.Column="4" Grid.Row="2">
                     <VerticalStackLayout>
                         <Label Text="6" HorizontalOptions="End" TextColor="#FA5B12"/>
-                        <Label Text="Mikołajki" HorizontalOptions="End" TextColor="#FA5B12"/>
+                        <Label Text="Mikołajki" HorizontalTextAlignment="End" BackgroundColor="#FA5B12"/>
                     </VerticalStackLayout>
                 </Border>
                 <Border Grid.Column="4" Grid.Row="3">
@@ -98,9 +98,9 @@
                 </Border>
                 <Border Grid.Column="4" Grid.Row="4">
                     <VerticalStackLayout>
-                        <Label Text="20" HorizontalOptions="End"/>
-                        <Label Text="Termin wystawiania proponowanych ocen" HorizontalTextAlignment="End"/>
-                        <Label Text="Wigilia klasowa" HorizontalTextAlignment="End"/>
+                        <Label Text="20" HorizontalOptions="End" TextColor="CadetBlue"/>
+                        <Label Text="Termin wystawiania proponowanych ocen" HorizontalTextAlignment="End" BackgroundColor="LightBlue"/>
+                        <Label Text="Wigilia klasowa" HorizontalTextAlignment="End" BackgroundColor="DarkViolet" TextColor="White"/>
                     </VerticalStackLayout>
                 </Border>
                 <Border Grid.Column="4" Grid.Row="5">
